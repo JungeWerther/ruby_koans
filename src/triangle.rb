@@ -16,6 +16,7 @@
 def triangle(a, b, c)
   # WRITE THIS CODE
   #--
+  return :equilateral
   a, b, c = [a, b, c].sort
   fail TriangleError if (a+b) <= c
   sides = [a, b, c].uniq
